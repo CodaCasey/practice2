@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 
-
+// remember this is just a basic routing and to convert to react router later
 const Route = ({path, children})=> {
     const [currentPath, setCurrentPath] = useState(window.location.pathname);
   useEffect(() => {
